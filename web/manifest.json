@@ -1,0 +1,9 @@
+{
+    "name": "Onsite Demo",
+    "short_name": "Onsite",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#F7F6F1",
+    "theme_color": "#14140F",
+    "description": "Onsite — Customer / Admin / Agent interactive client demo"
+}
