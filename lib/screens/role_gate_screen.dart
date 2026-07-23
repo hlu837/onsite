@@ -862,7 +862,7 @@ class _PropertiesSectionState extends State<_PropertiesSection> {
                 child: ResponsiveGrid(
                   itemCount: displayedAssets.length,
                   gap: 12,
-                  breakpoints: const {0: 2, 640: 3, 1024: 4},
+                  breakpoints: {0: 2, 640: 3, 1024: 4},
                   itemBuilder: (i) => AssetListCard(
                     asset: displayedAssets[i],
                     compact: true,
