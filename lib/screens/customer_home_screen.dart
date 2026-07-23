@@ -310,7 +310,7 @@ class _CustomerHomeScreenState extends State<CustomerHomeScreen> {
                       child: ResponsiveGrid(
                         itemCount: featuredAssets.length,
                         gap: AppSpacing.sm,
-                        breakpoints: const {0: 2, 640: 3, 1024: 4},
+                        breakpoints: {0: 2, 640: 3, 1024: 4},
                         itemBuilder: (i) {
                           final asset = featuredAssets[i];
                           return AssetListCard(
